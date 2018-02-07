@@ -1,0 +1,52 @@
+SCM is used in every phase of SDLC.
+
+Functionalities:
+setting of atrifacts, add/delete artificats, enable CM, tracking various versions of atrifacts (revision control), 
+maintaining changes made to artifacts, labelling of atrifacts (40 digit SHA-1 algm),
+
+GIT - linux env
+
+centralized Version control - cons - need to be online to work, pessimistic locking
+distributed version control - creates clone of repo, optimistic locking
+
+Terminologies:
+Repo, trunk, tags, branches,working copy, commit changes
+in git we have branches - master - create at 1st commit.
+commit - local system - local git repo, push - commit to central git repo
+add - untacked to tracked 
+git init
+reset - undo changes in local git repo
+git remote
+git commit - change message/comment - git --amend
+git log - get the #
+git rebase - sync master to develop branch
+git merge - sync develop to master
+git tag - tage latest change
+git show <sha number>/tag
+git pull or git fetch and git diffool, solve sync conflict and git merge (do git add. and git commit before running merge)
+git push -f : force push to replace the central file with local file
+
+
+GIT commands:
+git init. git add, git remote, git commit, git push, git reset
+git log, git rebase, git merge, git checkout - switch
+git tag, git show
+git fetch and git diffool and git merge
+git stash - retain uncommited changes 
+git stash pop - last uncommited change is shown
+git revert
+git checkout <sha> - takes u to particular change
+git log <sha> - shows changes upto that sha commit 
+git checkout -b <branchname> - switch to branch if already present or create a branch and switch 
+git clone
+git mv, rmv - move n remove
+git grep - pattern match
+
+
+Key features:
+scalable, non linear development, large scale projects, open source, strong integrtity, distributed development
+
+
+
+
+ 
