@@ -42,6 +42,13 @@ git clone
 git mv, rmv - move n remove
 git grep - pattern match
 
+git config --global alias.committ "push origin --set-upstream master"
+git rebase -i (interactively)
+git reset --hard/--soft <sha>
+git log -p <filename> - logs changes related to the file
+git clean -f : removes untracked files and dir removal use -d
+git clean -nfd : lists the files/dir to be removed. doesnt removes.. just shows
+
 
 Key features:
 scalable, non linear development, large scale projects, open source, strong integrtity, distributed development
