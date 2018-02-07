@@ -28,17 +28,17 @@ git push -f : force push to replace the central file with local file
 
 
 GIT commands:
-git init. git add, git remote, git commit, git push, git reset
-git log, git rebase, git merge, git checkout - switch
+basic commands: git init. git add, git remote, git commit, git push, git reset, git clone
+git log, git status, git rebase, git merge, git checkout - switch, git branch
 git tag, git show
 git fetch and git diffool and git merge
 git stash - retain uncommited changes 
 git stash pop - last uncommited change is shown
-git revert
+git revert, git pull
 git checkout <sha> - takes u to particular change
 git log <sha> - shows changes upto that sha commit 
 git checkout -b <branchname> - switch to branch if already present or create a branch and switch 
-git clone
+
 git mv, rmv - move n remove
 git grep - pattern match
 
@@ -48,10 +48,13 @@ git reset --hard/--soft <sha>
 git log -p <filename> - logs changes related to the file
 git clean -f : removes untracked files and dir removal use -d
 git clean -nfd : lists the files/dir to be removed. doesnt removes.. just shows
+git bisect - check inconsistency
 
 
 Key features:
 scalable, non linear development, large scale projects, open source, strong integrtity, distributed development
+
+egit - eclipse git UI
 
 
 
